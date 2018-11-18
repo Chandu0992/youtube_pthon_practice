@@ -6,4 +6,4 @@ while i<=100:
         continue
     else:
         print(i)
-        i +=1
+        i += 1
