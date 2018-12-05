@@ -17,7 +17,7 @@ def something():
     x = globals()['a']
     print("Inside of function : ",a)
     print(id(x))
-    globals()['a'] = 20
+    globals()['a'] = 20 #Global value will have some effect but not local variable
 
 something()
 print(a)
