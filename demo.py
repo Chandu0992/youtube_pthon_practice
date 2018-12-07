@@ -1,4 +1,8 @@
-print("Hello World")
-x = 20
-y = 15
-print("sum : ",x+y)
+
+
+def main():
+    print("Hello")
+    print("Welcome User")
+
+if __name__ == '__main__':
+    main()
